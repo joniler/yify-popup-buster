@@ -1,0 +1,14 @@
+{
+  "name": "YIFY Popup Buster",
+  "version": "1.0",
+  "description": "Extension that checks to see if you're on a YIFY site, then removes the popup event listeners so that you can browse your flicks in peace.",
+  "browser_action": {
+    "default_icon": "yify.png"
+  },
+  "permissions": ["tabs", "*://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
